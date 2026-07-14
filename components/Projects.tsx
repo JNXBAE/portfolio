@@ -18,7 +18,6 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-60px" }}
       transition={{ duration: 0.45, delay: (index % 3) * 0.08 }}
-      className="card-elevate flex flex-col overflow-hidden rounded-2xl border border-surface-border bg-white dark:border-slate-800 dark:bg-slate-900/40"
     >
       <div className="relative aspect-[16/10] overflow-hidden rounded-xl">
         <Image
